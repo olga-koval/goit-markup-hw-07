@@ -1,0 +1,51 @@
+/* FOOTER JOIN US SECTION */
+
+.join-us-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+  margin-bottom: 20px;
+}
+
+.join-us-list {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.join-us-item {
+  margin-right: 10px;
+}
+
+.join-us-item:last-child {
+  margin-right: 0;
+}
+
+.join-us-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  border-radius: 50%;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.join-us-link:hover,
+.join-us-link:focus,
+.join-us-link:active {
+  background-color: var(--accent-color);
+}
+
+.join-us-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+  cursor: pointer;
+}
