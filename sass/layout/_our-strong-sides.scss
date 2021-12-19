@@ -8,14 +8,12 @@
 .flex-element {
   width: 270px;
   margin-right: 30px;
-}
-
-.flex-element:first-child {
-  margin-left: 0;
-}
-
-.flex-element:last-child {
-  margin-right: 0;
+  &:first-child {
+    margin-left: 0;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .whatwedo-icons {
@@ -36,7 +34,7 @@
   height: 70px;
 }
 
-.subsection-title {
+.whatwedo-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;

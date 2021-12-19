@@ -2,31 +2,16 @@
   padding-bottom: 94px;
 }
 
-.section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  color: var(--title-text-color);
-
-  text-align: center;
-  margin-bottom: 50px;
-}
-
 .whatwedo-list {
   display: flex;
-}
-
-.whatwedo-list {
-  margin-right: 30px;
-}
-
-.whatwedo-pictures:not(:last-child) {
   margin-right: 30px;
 }
 
 .whatwedo-pictures {
   position: relative;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .whatwedo-layer {
@@ -47,4 +32,14 @@
   text-transform: uppercase;
   color: var(--secondary-text-color);
   padding: 27px 82px;
+}
+
+.section-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  margin-bottom: 50px;
 }

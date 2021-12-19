@@ -34,10 +34,9 @@
 .contacts-items {
   display: block;
   margin-bottom: 9px;
-}
-
-.contacts-items:last-child {
-  margin-bottom: 0;
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .contacts-footer {
