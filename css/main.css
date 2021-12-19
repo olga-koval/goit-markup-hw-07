@@ -91,7 +91,16 @@ body {
   padding-bottom: 94px;
 }
 
-/* ------ WEBSITE LOGO ------ */
+.page-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 80px;
+  background-color: var(--primary-bgd-color);
+  z-index: 1;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -106,18 +115,6 @@ body {
   color: var(--accent-color);
 }
 
-/* ------ HEADER ------ */
-.page-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  min-height: 80px;
-  background-color: var(--primary-bgd-color);
-  z-index: 1;
-}
-
-/* ------ WEBSITE NAVIGATION SECTION ------ */
 .site-nav {
   display: flex;
   margin-left: 93px;
@@ -159,7 +156,6 @@ body {
   background-color: var(--accent-color);
 }
 
-/* ------ WEBSITE CONTACTS SECTION ------ */
 .site-nav-contacts {
   display: flex;
   margin-left: auto;
@@ -610,7 +606,6 @@ body {
   margin-bottom: 16px;
 }
 
-/* SOCIAL LINKS */
 .team-social {
   display: flex;
   justify-content: center;
@@ -742,7 +737,6 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* FOOTER JOIN US SECTION */
 .join-us-title {
   font-weight: 700;
   font-size: 14px;
@@ -791,7 +785,6 @@ body {
   cursor: pointer;
 }
 
-/* <!-- SIGN UP FOOTER --> */
 .sign-up-form {
   display: block;
   width: 570px;
@@ -866,7 +859,7 @@ body {
   margin-left: 10px;
 }
 
-/* PORTFOLIO PAGE SECTION */
+/* <------ PORTFOLIO PAGE SECTION ------> */
 .portfolio-header {
   border-bottom: 1px solid #ececec;
 }

@@ -1,4 +1,16 @@
-/* ------ WEBSITE LOGO ------ */
+// /* ------ HEADER ------ */
+
+.page-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 80px;
+  background-color: var(--primary-bgd-color);
+  z-index: 1;
+}
+
+// /* ------ HEADER WEBSITE LOGO ------ */
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -14,19 +26,7 @@
   color: var(--accent-color);
 }
 
-/* ------ HEADER ------ */
-
-.page-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  min-height: 80px;
-  background-color: var(--primary-bgd-color);
-  z-index: 1;
-}
-
-/* ------ WEBSITE NAVIGATION SECTION ------ */
+// /* ------ HEADER NAVIGATION SECTION ------ */
 
 .site-nav {
   display: flex;
@@ -71,7 +71,7 @@
   }
 }
 
-/* ------ WEBSITE CONTACTS SECTION ------ */
+// /* ------ HEADER CONTACTS SECTION ------ */
 
 .site-nav-contacts {
   display: flex;
