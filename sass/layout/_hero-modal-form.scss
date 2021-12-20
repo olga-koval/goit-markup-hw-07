@@ -1,10 +1,6 @@
 /* <!-- HERO MODAL SUBMIT FORM --> */
 
-.modal-form {
-  width: 448px;
-}
-
-.modal-header {
+.modal__header {
   width: 448px;
   height: 23px;
   text-align: center;
@@ -13,24 +9,28 @@
   line-height: 1.15;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-  margin-bottom: 11px;
+  margin-bottom: 12px;
 }
 
-.modal-label {
+.modal-form {
+  width: 448px;
+}
+
+.modal-form__label {
   display: block;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: var(--primary-text-color);
-  &:focus-within .modal-icon {
+  &:focus-within .modal-form__icon {
     fill: var(--accent-color);
   }
-  &:hover .modal-icon {
+  &:hover .modal-form__icon {
     fill: var(--accent-color);
   }
 }
 
-.modal-field {
+.modal-form__field {
   position: relative;
   display: flex;
   justify-content: flex-start;
@@ -43,7 +43,7 @@
   margin-bottom: 10px;
 }
 
-.modal-input {
+.modal-form__input {
   width: 448px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -60,18 +60,16 @@
   }
 }
 
-.modal-icon {
+.modal-form__icon {
   position: absolute;
   top: 50%;
   left: 12px;
   display: inline-block;
-  width: 18px;
-  height: 18px;
   fill: var(--title-text-color);
   transform: translateY(-50%);
 }
 
-.modal-field-comment {
+.modal-form__comment-field {
   display: flex;
   justify-content: flex-start;
   align-content: flex-start;
@@ -96,14 +94,14 @@
   }
 }
 
-.modal-checkbox {
+.modal-form__checkbox {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
 }
 
-.checkbox-icon {
+.modal-form__checkbox-icon {
   display: block;
   width: 16px;
   height: 15px;
@@ -111,17 +109,17 @@
   border: 1px solid var(--title-text-color);
   border-radius: 2px;
   margin-right: 7px;
-  .checkbox:focus + & {
+  .modal-form__checkbox:focus + & {
     border-color: var(--accent-color);
   }
-  .checkbox:checked + & {
+  .modal-form__checkbox:checked + & {
     background-color: var(--accent-color);
     background-origin: border-box;
     border-color: var(--accent-color);
   }
 }
 
-.terms {
+.modal-form__terms {
   color: var(--accent-color);
   cursor: pointer;
   margin-left: 4px;
@@ -133,7 +131,7 @@
   }
 }
 
-.modal-button {
+.modal-form__button {
   display: flex;
   justify-content: center;
   align-items: center;

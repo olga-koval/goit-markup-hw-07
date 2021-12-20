@@ -1,13 +1,13 @@
 //  <!------ OUR STRONG SIDES SECTION ------>
 
-.flex-container {
+.benefits {
   display: flex;
   flex-wrap: wrap;
   background-color: var(--primary-bgd-color);
   padding-left: 0;
 }
 
-.flex-element {
+.benefits__list {
   width: 270px;
   margin-right: 30px;
   &:first-child {
@@ -18,7 +18,7 @@
   }
 }
 
-.whatwedo-icons {
+.benefits__item {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,15 +28,7 @@
   margin-bottom: 30px;
 }
 
-.whatwedo-icons-item {
-  display: block;
-  align-items: center;
-  align-content: center;
-  width: 70px;
-  height: 70px;
-}
-
-.whatwedo-title {
+.benefits__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;

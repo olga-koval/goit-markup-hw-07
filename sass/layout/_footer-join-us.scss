@@ -1,6 +1,6 @@
 // /* ------ FOOTER JOIN US SECTION ------ */
 
-.join-us-title {
+.join-us {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -10,19 +10,19 @@
   margin-bottom: 20px;
 }
 
-.join-us-list {
+.join-us__list {
   display: flex;
   justify-content: flex-start;
 }
 
-.join-us-item {
+.join-us__item {
   margin-right: 10px;
   &:last-child {
     margin-right: 0;
   }
 }
 
-.join-us-link {
+.join-us__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,9 +41,7 @@
   }
 }
 
-.join-us-icon {
-  width: 20px;
-  height: 20px;
+.join-us__icon {
   fill: currentColor;
   cursor: pointer;
 }

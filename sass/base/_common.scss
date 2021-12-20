@@ -25,11 +25,6 @@ body {
   }
 }
 
-.main-menu {
-  display: flex;
-  align-items: center;
-}
-
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -41,4 +36,14 @@ body {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.section-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  margin-bottom: 50px;
 }

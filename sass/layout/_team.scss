@@ -1,10 +1,17 @@
-// <!------ OUR TEAM SECTION ------>
+// <!------ TEAM SECTION ------>
 
-.team {
+.team-section {
   background-color: var(--third-bgd-color);
 }
 
-.flex-element-team {
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--third-bgd-color);
+  padding-left: 0;
+}
+
+.team__item {
   min-width: 270px;
   min-height: 428px;
   margin-right: 30px;
@@ -17,12 +24,12 @@
   }
 }
 
-.team-description {
+.team__description {
   text-align: center;
   padding: 30px 32px;
 }
 
-.team-names {
+.team__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -31,7 +38,7 @@
   margin-bottom: 10px;
 }
 
-.team-professions {
+.team__profession {
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -41,12 +48,12 @@
 
 // /* ------ OUR TEAM SOCIAL LINKS ------ */
 
-.team-social {
+.social {
   display: flex;
   justify-content: center;
 }
 
-.team-item {
+.social__item {
   display: flex;
   justify-content: center;
   margin-right: 10px;
@@ -55,7 +62,7 @@
   }
 }
 
-.team-link {
+.social__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,9 +84,7 @@
   }
 }
 
-.team-icon {
-  width: 20px;
-  height: 20px;
+.social__icon {
   fill: currentColor;
   cursor: pointer;
 }
